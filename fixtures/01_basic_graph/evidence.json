@@ -1,0 +1,35 @@
+{
+  "schema": "proofmarket.evidence.v1",
+  "nodes": [
+    {
+      "id": "E_ANNUAL_V3",
+      "version": 3,
+      "kind": "annual_report",
+      "type": "leaf",
+      "signed": true,
+      "known_at": 90,
+      "approved_regions": ["CN"],
+      "coverage": [
+        {"controls": ["C_ANNUAL"], "regions": ["CN"], "intervals": [[0, 100]]}
+      ]
+    },
+    {
+      "id": "E_VENDOR_COMPOSITE_V2",
+      "version": 2,
+      "kind": "vendor_commitment",
+      "type": "composite",
+      "prerequisites": ["E_UPSTREAM_SIGNOFF", "E_MISSING_NOT_COMMITTED"],
+      "approved_regions": ["CN"],
+      "coverage": [
+        {"controls": ["C_COMPOSITE"], "regions": ["CN"], "intervals": [[10, 90]]}
+      ]
+    },
+    {
+      "id": "E_UPSTREAM_SIGNOFF",
+      "kind": "signoff",
+      "type": "leaf",
+      "signed": true,
+      "coverage": [{"controls": ["C_OTHER"], "intervals": [[0, 100]]}]
+    }
+  ]
+}

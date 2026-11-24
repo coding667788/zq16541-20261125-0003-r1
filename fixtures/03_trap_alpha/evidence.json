@@ -1,0 +1,29 @@
+{
+  "schema": "proofmarket.evidence.v1",
+  "nodes": [
+    {
+      "id": "E_P_A1",
+      "kind": "lab_report",
+      "source": "P_LAB_ONE",
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_PAYMENTS_DUAL_LAB"], "intervals": [[0, 10]]}]
+    },
+    {
+      "id": "E_P_A2",
+      "kind": "lab_report",
+      "source": "P_LAB_TWO_LEGAL",
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_PAYMENTS_DUAL_LAB"], "intervals": [[0, 10]]}]
+    },
+    {
+      "id": "E_P_B",
+      "kind": "lab_report",
+      "source": "P_INDEP_LAB",
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_PAYMENTS_DUAL_LAB"], "intervals": [[0, 10]]}]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "schema": "proofmarket.solution.v1",
+  "selected_actions": ["act_p_a1_cheap", "act_p_b_slow_equal_fee"],
+  "note": "Same full-period fee 4 as the optimal fast pair, but review_days=6 instead of 2."
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "proofmarket.case.v1",
+  "case_id": "01_basic_version_graph",
+  "decision_time": 100,
+  "horizon": [0, 100],
+  "controls": [
+    {
+      "id": "C_ANNUAL",
+      "risk_class": "financial_reporting",
+      "required_intervals": [[0, 100]],
+      "required_regions": ["CN"],
+      "rule": {
+        "alternatives": [
+          {"id": "full_annual_report", "kinds": ["annual_report"], "quorum": 1},
+          {
+            "id": "two_independent_labs",
+            "kinds": ["lab_report"],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_COMPOSITE",
+      "risk_class": "vendor_assurance",
+      "required_intervals": [[0, 100]],
+      "required_regions": ["CN"],
+      "rule": {"alternatives": [{"id": "vendor_commitment", "kinds": ["vendor_commitment"]}]}
+    }
+  ],
+  "ownership_intervals": [
+    {"entity": "LAB_A", "owner": "OWN_A", "start": 0, "end": 100},
+    {"entity": "LAB_B", "owner": "OWN_B", "start": 0, "end": 100}
+  ],
+  "actions": []
+}

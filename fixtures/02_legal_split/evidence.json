@@ -1,0 +1,21 @@
+{
+  "schema": "proofmarket.evidence.v1",
+  "nodes": [
+    {
+      "id": "E_LAB_A1",
+      "kind": "lab_report",
+      "type": "leaf_signoff",
+      "source": "LAB_A_LEGAL_1",
+      "approved_regions": ["GLOBAL"],
+      "coverage": [{"controls": ["C_LAB_PAIR"], "intervals": [[0, 100]]}]
+    },
+    {
+      "id": "E_LAB_A2",
+      "kind": "lab_report",
+      "type": "leaf_signoff",
+      "source": "LAB_A_LEGAL_2",
+      "approved_regions": ["GLOBAL"],
+      "coverage": [{"controls": ["C_LAB_PAIR"], "intervals": [[0, 100]]}]
+    }
+  ]
+}

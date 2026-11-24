@@ -1,0 +1,12 @@
+{
+  "schema": "proofmarket.solution.v1",
+  "selected_actions": ["act_q_u1_cheap", "act_q_u2_cheap"],
+  "independence_claims": [
+    {
+      "control": "C_CUSTOMER_DATA_DUAL",
+      "upstreams": ["E_Q_U1", "E_Q_U2"],
+      "interval": [0, 40],
+      "claimed_reason": "different JSON ids"
+    }
+  ]
+}

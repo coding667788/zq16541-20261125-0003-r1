@@ -1,0 +1,129 @@
+{
+  "schema": "proofmarket.evidence.v1",
+  "nodes": [
+    {
+      "id": "E_BROAD_SHARED",
+      "kind": "annual_report",
+      "type": "leaf",
+      "available": false,
+      "signed": true,
+      "source": "SHARED_AUDITOR",
+      "approved_regions": [
+        "CN"
+      ],
+      "coverage": [
+        {
+          "controls": "*",
+          "regions": [
+            "CN"
+          ],
+          "intervals": [
+            [
+              100,
+              900
+            ]
+          ]
+        }
+      ],
+      "reuse_note": "One real coverage claim is reused by all 32 controls."
+    },
+    {
+      "id": "E_NARROW_ACTUAL",
+      "kind": "annual_report",
+      "type": "leaf",
+      "available": false,
+      "signed": true,
+      "approved_regions": [
+        "CN"
+      ],
+      "coverage": [
+        {
+          "controls": [
+            "C_01"
+          ],
+          "regions": [
+            "CN"
+          ],
+          "intervals": [
+            [
+              100,
+              900
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E_LAB_A",
+      "kind": "lab_report",
+      "type": "leaf",
+      "available": false,
+      "source": "BATCH_LAB_A",
+      "approved_regions": [
+        "CN"
+      ],
+      "coverage": [
+        {
+          "controls": "*",
+          "regions": [
+            "CN"
+          ],
+          "intervals": [
+            [
+              100,
+              900
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E_LAB_B",
+      "kind": "lab_report",
+      "type": "leaf",
+      "available": false,
+      "source": "BATCH_LAB_B",
+      "approved_regions": [
+        "CN"
+      ],
+      "coverage": [
+        {
+          "controls": "*",
+          "regions": [
+            "CN"
+          ],
+          "intervals": [
+            [
+              100,
+              900
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E_LAB_C",
+      "kind": "lab_report",
+      "type": "leaf",
+      "available": false,
+      "source": "BATCH_LAB_C",
+      "approved_regions": [
+        "CN"
+      ],
+      "coverage": [
+        {
+          "controls": "*",
+          "regions": [
+            "CN"
+          ],
+          "intervals": [
+            [
+              100,
+              900
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

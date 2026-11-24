@@ -1,0 +1,31 @@
+{
+  "schema": "proofmarket.case.v1",
+  "case_id": "03_trap_alpha_payments_group",
+  "horizon": [0, 10],
+  "controls": [
+    {
+      "id": "C_PAYMENTS_DUAL_LAB",
+      "risk_class": "payments",
+      "independence_group": "payments-group",
+      "required_intervals": [[0, 10]],
+      "rule": {
+        "id": "two_independent_labs",
+        "kinds": ["lab_report"],
+        "quorum": 2,
+        "independent": true,
+        "coverage_policy": "at_each_time"
+      }
+    }
+  ],
+  "ownership_intervals": [
+    {"entity": "P_LAB_ONE", "owner": "P_ACTUAL_GROUP", "start": 0, "end": 10},
+    {"entity": "P_LAB_TWO_LEGAL", "owner": "P_ACTUAL_GROUP", "start": 0, "end": 10},
+    {"entity": "P_INDEP_LAB", "owner": "P_INDEPENDENT_OWNER", "start": 0, "end": 10}
+  ],
+  "actions": [
+    {"id": "act_p_a1_cheap", "grants": ["E_P_A1"], "cost": 1, "review_days": 1},
+    {"id": "act_p_a2_cheap", "grants": ["E_P_A2"], "cost": 1, "review_days": 1},
+    {"id": "act_p_b_fast", "grants": ["E_P_B"], "cost": 3, "review_days": 1},
+    {"id": "act_p_b_slow_equal_fee", "grants": ["E_P_B"], "cost": 3, "review_days": 5}
+  ]
+}

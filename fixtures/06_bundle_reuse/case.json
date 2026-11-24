@@ -1,0 +1,1126 @@
+{
+  "schema": "proofmarket.case.v1",
+  "case_id": "06_bundle_tier_and_reuse_32_controls",
+  "horizon": [
+    0,
+    1000
+  ],
+  "controls": [
+    {
+      "id": "C_01",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_02",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_03",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_04",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_05",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_06",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_07",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_08",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_09",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_10",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_11",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_12",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_13",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_14",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_15",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_16",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_17",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_18",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_19",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_20",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_21",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_22",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_23",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_24",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_25",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_26",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_27",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_28",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_29",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_30",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_31",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C_32",
+      "risk_class": "shared-control-reuse",
+      "required_intervals": [
+        [
+          100,
+          900
+        ]
+      ],
+      "required_regions": [
+        "CN"
+      ],
+      "rule": {
+        "alternatives": [
+          {
+            "id": "annual_or_shared_report",
+            "kinds": [
+              "annual_report"
+            ]
+          },
+          {
+            "id": "two_independent_labs",
+            "kinds": [
+              "lab_report"
+            ],
+            "quorum": 2,
+            "independent": true,
+            "coverage_policy": "at_each_time"
+          }
+        ]
+      }
+    }
+  ],
+  "ownership_intervals": [
+    {
+      "entity": "BATCH_LAB_A",
+      "owner": "BATCH_OWNER_A",
+      "start": 0,
+      "end": 1000
+    },
+    {
+      "entity": "BATCH_LAB_B",
+      "owner": "BATCH_OWNER_B",
+      "start": 0,
+      "end": 1000
+    },
+    {
+      "entity": "BATCH_LAB_C",
+      "owner": "BATCH_OWNER_C",
+      "start": 0,
+      "end": 1000
+    }
+  ],
+  "pricing_batches": [
+    {
+      "id": "lab_batch",
+      "count_basis": "action",
+      "tiers": [
+        {
+          "min_count": 1,
+          "max_count": 2,
+          "unit_cost": 6
+        },
+        {
+          "min_count": 3,
+          "max_count": 18,
+          "unit_cost": 4
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "act_broad_shared_report",
+      "grants": [
+        "E_BROAD_SHARED"
+      ],
+      "full_period_cost": 10,
+      "review_days": 2,
+      "line_count": 1
+    },
+    {
+      "id": "act_cheap_but_quoted_universal",
+      "grants": [
+        "E_NARROW_ACTUAL"
+      ],
+      "full_period_cost": 1,
+      "review_days": 1,
+      "quoted_controls": "*",
+      "quoted_regions": [
+        "*"
+      ],
+      "quoted_intervals": [
+        [
+          0,
+          1000
+        ]
+      ],
+      "quote_would_claim": "Quotation scope is deliberately broader than true coverage."
+    },
+    {
+      "id": "act_lab_a",
+      "grants": [
+        "E_LAB_A"
+      ],
+      "batch": "lab_batch",
+      "review_days": 1
+    },
+    {
+      "id": "act_lab_b",
+      "grants": [
+        "E_LAB_B"
+      ],
+      "batch": "lab_batch",
+      "review_days": 1
+    },
+    {
+      "id": "act_lab_c",
+      "grants": [
+        "E_LAB_C"
+      ],
+      "batch": "lab_batch",
+      "review_days": 1
+    }
+  ]
+}

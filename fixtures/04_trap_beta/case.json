@@ -1,0 +1,32 @@
+{
+  "schema": "proofmarket.case.v1",
+  "case_id": "04_trap_beta_customer_data_upstreams",
+  "horizon": [0, 40],
+  "controls": [
+    {
+      "id": "C_CUSTOMER_DATA_DUAL",
+      "risk_class": "customer-data",
+      "independence_group": "customer-data-group",
+      "required_intervals": [[0, 40]],
+      "rule": {
+        "id": "two_independent_lab_leaves",
+        "kinds": ["lab_report"],
+        "quorum": 2,
+        "independent": true,
+        "coverage_policy": "at_each_time"
+      }
+    }
+  ],
+  "ownership_intervals": [
+    {"entity": "Q_LAB_ONE", "owner": "Q_COMMON_PARENT", "start": 0, "end": 40},
+    {"entity": "Q_LAB_TWO", "owner": "Q_COMMON_PARENT", "start": 0, "end": 40},
+    {"entity": "Q_INDEP_LAB_R", "owner": "Q_INDEPENDENT_OWNER_R", "start": 0, "end": 40},
+    {"entity": "Q_INDEP_LAB_S", "owner": "Q_INDEPENDENT_OWNER_S", "start": 0, "end": 40}
+  ],
+  "actions": [
+    {"id": "act_q_u1_cheap", "grants": ["E_Q_U1"], "cost": 1, "review_days": 1},
+    {"id": "act_q_u2_cheap", "grants": ["E_Q_U2"], "cost": 1, "review_days": 1},
+    {"id": "act_q_lab_r", "grants": ["E_Q_R"], "cost": 2, "review_days": 1},
+    {"id": "act_q_lab_s", "grants": ["E_Q_S"], "cost": 2, "review_days": 1}
+  ]
+}

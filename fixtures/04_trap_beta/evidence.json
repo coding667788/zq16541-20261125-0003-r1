@@ -1,0 +1,59 @@
+{
+  "schema": "proofmarket.evidence.v1",
+  "nodes": [
+    {
+      "id": "E_Q_LEAF_U1",
+      "kind": "signoff",
+      "type": "leaf",
+      "source": "Q_LAB_ONE",
+      "signed": true,
+      "approved_regions": ["*"]
+    },
+    {
+      "id": "E_Q_LEAF_U2",
+      "kind": "signoff",
+      "type": "leaf",
+      "source": "Q_LAB_TWO",
+      "signed": true,
+      "approved_regions": ["*"]
+    },
+    {
+      "id": "E_Q_U1",
+      "kind": "upstream_commitment",
+      "type": "composite",
+      "source": "Q_LAB_ONE",
+      "prerequisites": ["E_Q_LEAF_U1"],
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_CUSTOMER_DATA_DUAL"], "intervals": [[0, 40]]}]
+    },
+    {
+      "id": "E_Q_U2",
+      "kind": "upstream_commitment",
+      "type": "composite",
+      "source": "Q_LAB_TWO",
+      "prerequisites": ["E_Q_LEAF_U2"],
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_CUSTOMER_DATA_DUAL"], "intervals": [[0, 40]]}]
+    },
+    {
+      "id": "E_Q_R",
+      "kind": "lab_report",
+      "type": "leaf",
+      "source": "Q_INDEP_LAB_R",
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_CUSTOMER_DATA_DUAL"], "intervals": [[0, 40]]}]
+    },
+    {
+      "id": "E_Q_S",
+      "kind": "lab_report",
+      "type": "leaf",
+      "source": "Q_INDEP_LAB_S",
+      "available": false,
+      "approved_regions": ["*"],
+      "coverage": [{"controls": ["C_CUSTOMER_DATA_DUAL"], "intervals": [[0, 40]]}]
+    }
+  ]
+}

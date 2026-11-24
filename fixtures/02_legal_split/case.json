@@ -1,0 +1,25 @@
+{
+  "schema": "proofmarket.case.v1",
+  "case_id": "02_legal_split_is_not_independence",
+  "horizon": [0, 100],
+  "controls": [
+    {
+      "id": "C_LAB_PAIR",
+      "risk_class": "third_party_assurance",
+      "required_intervals": [[0, 100]],
+      "required_regions": ["GLOBAL"],
+      "rule": {
+        "id": "two_independent_labs",
+        "kinds": ["lab_report"],
+        "quorum": 2,
+        "independent": true,
+        "coverage_policy": "at_each_time"
+      }
+    }
+  ],
+  "ownership_intervals": [
+    {"entity": "LAB_A_LEGAL_1", "owner": "ACTUAL_GROUP_A", "start": 0, "end": 100},
+    {"entity": "LAB_A_LEGAL_2", "owner": "ACTUAL_GROUP_A", "start": 0, "end": 100}
+  ],
+  "actions": []
+}

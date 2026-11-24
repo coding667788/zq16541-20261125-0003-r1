@@ -1,0 +1,21 @@
+{
+  "schema": "proofmarket.evidence.v1",
+  "nodes": [
+    {
+      "id": "E_KAPPA_FULL",
+      "kind": "lab_report",
+      "type": "leaf_signoff",
+      "source": "LAB_KAPPA",
+      "approved_regions": ["*"],
+      "coverage": [{"controls": "*", "intervals": [[0, 1000000000]]}]
+    },
+    {
+      "id": "E_LAMBDA_FULL",
+      "kind": "lab_report",
+      "type": "leaf_signoff",
+      "source": "LAB_LAMBDA",
+      "approved_regions": ["*"],
+      "coverage": [{"controls": "*", "intervals": [[0, 1000000000]]}]
+    }
+  ]
+}

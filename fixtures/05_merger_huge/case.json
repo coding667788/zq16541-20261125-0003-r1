@@ -1,0 +1,41 @@
+{
+  "schema": "proofmarket.case.v1",
+  "case_id": "05_temporary_parent_merger_1e9",
+  "horizon": [0, 1000000000],
+  "decision_time": 1000000000,
+  "controls": [
+    {
+      "id": "C_TIMEWISE_PAIR",
+      "risk_class": "continuity",
+      "required_intervals": [[0, 1000000000]],
+      "rule": {
+        "id": "two_labs_timewise",
+        "kinds": ["lab_report"],
+        "quorum": 2,
+        "independent": true,
+        "coverage_policy": "at_each_time"
+      }
+    },
+    {
+      "id": "C_STABLE_PAIR",
+      "risk_class": "annual_equivalent",
+      "required_intervals": [[0, 1000000000]],
+      "rule": {
+        "id": "same_two_labs_for_full_annual_span",
+        "kinds": ["lab_report"],
+        "quorum": 2,
+        "independent": true,
+        "coverage_policy": "same_pair_full_span"
+      }
+    }
+  ],
+  "ownership_intervals": [
+    {"entity": "LAB_KAPPA", "owner": "KAPPA_OWNERS", "start": 0, "end": 400000000},
+    {"entity": "LAB_KAPPA", "owner": "TEMP_PARENT", "start": 400000000, "end": 600000000},
+    {"entity": "LAB_KAPPA", "owner": "KAPPA_OWNERS", "start": 600000000, "end": 1000000000},
+    {"entity": "LAB_LAMBDA", "owner": "LAMBDA_OWNERS", "start": 0, "end": 400000000},
+    {"entity": "LAB_LAMBDA", "owner": "TEMP_PARENT", "start": 400000000, "end": 600000000},
+    {"entity": "LAB_LAMBDA", "owner": "LAMBDA_OWNERS", "start": 600000000, "end": 1000000000}
+  ],
+  "actions": []
+}

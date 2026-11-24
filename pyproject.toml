@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proofmarket"
+version = "1.0.0"
+description = "Offline multi-party evidence judgement and procurement planner"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+proofmarket = "proofmarket.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["proofmarket*"]

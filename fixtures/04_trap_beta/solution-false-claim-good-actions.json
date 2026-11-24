@@ -1,0 +1,12 @@
+{
+  "schema": "proofmarket.solution.v1",
+  "selected_actions": ["act_q_lab_r", "act_q_lab_s"],
+  "independence_claims": [
+    {
+      "control": "C_CUSTOMER_DATA_DUAL",
+      "upstreams": ["E_Q_U1", "E_Q_U2"],
+      "interval": [0, 40],
+      "claimed_reason": "The action IDs are different, so this file incorrectly calls them independent."
+    }
+  ]
+}
